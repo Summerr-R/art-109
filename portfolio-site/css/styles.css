@@ -1,0 +1,100 @@
+/*
+COLOR PALLET
+
+off white   #dbd8e3
+green    #7fa99b
+purple   #5c5470
+medium dark purple   #352f44
+violet   #2a2438
+*/
+
+/* GLOBAL STYLES
+-------------------------*/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html, body {
+    height: 100% ;
+    margin: 0;
+  }
+body {
+    background: #dbd8e3
+}
+a:hover {
+    color: #7fa99b;
+    text-decoration: none;
+}
+/* links */
+a {
+    color: #5c5470;
+}
+footer a {
+    color: #7fa99b;
+}
+footer a:hover {
+    color: #5c5470;
+}
+.btn {
+    background: #2a2438;
+    color: #dbd8e3;
+    text-decoration: none;
+}
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+/*HOME
+--------------------------*/
+.home {
+    background: url(../images/bg-home-office-city.jpg) no-repeat;
+background-size: cover;
+}
+.home .content-wrapper {
+    background: #dbd8e3; 
+    opacity: 0.9
+}
+
+/*RESUME
+--------------------------*/
+.resume header::before {
+    background: url(../images/bg-home-office-city.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+/*Profile
+--------------------------*/
+
+/*Projects
+--------------------------*/
+
+/*Education
+--------------------------*/
+
+
+/*FOOTER
+--------------------------*/
+footer {
+    background: #222;
+    color: #dbd8e3
+}
+.socials {
+    list-style-type: none;
+    padding: 0%;
+}
+.socials li {
+    display: inline-block;
+}
+.socials img {
+    width: 32px;
+}
