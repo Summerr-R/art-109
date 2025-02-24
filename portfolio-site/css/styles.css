@@ -131,4 +131,116 @@ flex-direction: column;
     }
 }
 @media screen and (max-width:500px){
-    .resume header::befo
+    .resume header::before {
+        height: 200px;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+    }
+
+}
+
+/*Projects
+--------------------------*/
+.project-item {
+    margin: 30px 0;
+    }
+    .project-item img {
+        width: 300px;
+    }
+@media screen and (min-width:860px) {
+    .project-item {
+        display: flow-root;
+        }
+     .project-item img {
+    float: left;
+    margin-right: 20px;
+        }
+}
+@media screen and (min-width:650px) and (max-width:859px) {
+    .project-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    .project-item img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .project-item img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/*Work Experience
+--------------------------*/
+.work-item {
+    margin: 30px, 0;
+}
+.work-details p {
+margin: 0;
+}
+.work-summary p:first-child{
+    margin: 0;
+}
+@media screen and (min-width:860px){
+    .work-item {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        column-gap: 20px;
+    }
+    .work-summary p:first-child {
+        margin-top: 0;
+    }
+}
+
+/*Education
+--------------------------*/
+.education-item {
+    margin: 30px, 0;
+}
+.education-item p {
+    margin: 0;
+}
+
+/*FOOTER
+--------------------------*/
+footer {
+    background: #222;
+    color: #dbd8e3;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.socials {
+    list-style-type: none;
+    padding: 0%;
+}
+.socials li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.socials img {
+    width: 32px;
+}
+.socials img:hover {
+    opacity: .5;
+}
+@media screen and (min-width:860){
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width:859px){
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+}
