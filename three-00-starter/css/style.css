@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+canvas {
+
+}
+
+#scene-container {
+    width: 80vw;
+    background-color: black;
+    height: 800px;
+    margin: 0 auto;
+}
